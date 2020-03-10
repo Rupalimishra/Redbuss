@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color:#d74f57;
+    padding: 5px 20px;
+}
+ul{
+    list-style-type:none;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: grey;
+}
+.menu li{
+    font-size: 14px;
+
+}
+.logo a{
+    font-size: 20px;
+}
+.menu {
+    display:flex;
+}
+.menu > li{
+    font: size 14px;
+}
+
+.container1{
+    border: 8px solid black;
+    width: 1287px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    background-image: url('image/gty.jpg');
+    background-size: cover; 
+    border-image: url(border3.jpeg) 50 round;
+}
+div.container1>input{
+    position: relative;
+    left: 12%;
+}
+.img1{
+    position: relative;
+    top: 40px;
+}
+.container1 > input{
+    height: 49px;
+    width: 16%;
+    border: none;
+}
+.field { 
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    padding: 10px;
+}
+.field:hover{
+    border: none;
+ box-shadow: 2px 2px 2px 2px black;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 21px;
+    background-color: whitesmoke;
+    left: 468px;
+    bottom: -126px;
+    width: 122px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.content{
+    width: 90%;
+    height: 300px;
+    padding: 10px;
+    margin: 60px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.content1{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 450px;
+    margin: 50px;
+    padding: 50px;
+    color:black;
+    text-align: center;
+    border: 1px solid grey;
+    float:right;
+    background-color: lightgrey
+}
+.content1-wrapper{
+    color:lightslategray;
+    position: relative;
+    right: 28px;
+    margin-left: 374px;
+}
+.superimpose{
+    position: relative;
+    width: 600px;
+    top: -50px;
+    left: 30%;
+    background-color: #ccc;
+    min-height: 103px;
+}
+
+.superimpose > .img-wrapper {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.superimpose > .img-wrapper > img {
+    height: 100%;
+    width: 90%;
+}
+
+.superimpose > .right-content {
+    margin-left: 150px;
+}
+
+.superimpose > .right-content > h4 {
+    padding-top: 25px;
+    padding-bottom: 10px
+}
+
+.content2{
+    background-color: whitesmoke;
+    width: 90%;
+    height: 100%;
+    margin: 50px;
+    text-align: center;
+}
+.twp{
+    width: 280px;
+    height: 150px;
+    padding: 10px;
+    margin: 50px;
+    color: lightgrey;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.content3{
+    padding-top: 20px;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 100%;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.content3 > table{
+    width: 100%;
+}
+.content3 > table > tr > th {
+    width: 33%;
+}
+.flag-wrapper > img {
+    width:200px;
+    height: 150px;
+    padding: 30px 10px 0px 10px;
+    margin-top: 5px;
+    margin: 35px;
+    color: lightgrey;
+    text-align:center;
+}
+
+.flag-wrapper > div{
+    color: #ccc;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.content4{
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+.ftr {
+    column-gap: 40px;
+    font-family: sans-serif;
+    color: grey;
+}
+.klm>td{
+    font-size: 40px;
+    color: rgba(206, 75, 58, 0.616);
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+.content5{
+    padding-top: 20px;
+    background-color: whitesmoke;
+    width: 90%;
+    height: 500px;
+    margin: 50px;
+    border: 1px solid black;
+}
+
+.content5 > .left-div {
+    width: 50%;
+    padding: 20px 50px;
+}
+
+.content5 > .left-div > p {
+    margin-top: 20px;
+}
+
+
+.content5 > .left-div > div {
+    margin: 10px 0px;
+}
+
+.content5 > .left-div > button {
+    background-color: red;
+    color:  #ccc;
+    padding: 5px 20px;
+    float: right;
+    margin-right: 150px;
+    border: 1px solid red;
+}
+
+.content5 > .left-div > button:hover {
+    cursor: pointer;
+}
+.content5 > right-div {
+    width: 50%;
+    padding: 20px ;
+   float: right;
+}
+.column{
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+    border: 1px solid
+    grey;
+    text-align: center;
+    background-color: white;
+    float: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;    
+}
+.head-style{
+    text-align: center;
+    color: grey;
+
+}
+.content-style {
+    color:grey;
+    font-family: sans-serif;
+}
+.column-wrapper{
+    width: 100%;
+    padding: 15px;
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.flex-container > div{
+    text-align: center;
+    padding: 10px;
+}
+.flex-style{
+    color: rgb(233, 74, 74);
+    font-size: 30px;
+}
+.div-left {
+    color:lightslategrey;
+    font-family: sans-serif;
+    float:left;
+    position:relative;
+    top:20px;
+    
+}
+.div-mid{
+    color:lightslategrey;
+    font-family: sans-serif;
+    position: relative;
+    top: 20px ; 
+}
+.div-right{
+    color:lightslategrey;
+    font-family: sans-serif;
+    float:right;
+    position:relative;
+    bottom: 60px;
+}
+.flex-container1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px;
+    letter-spacing: 2px;
+}
+.flex-container1 > div{
+    text-align: center;
+    padding: 10px;
+}
+.flex-style1{
+    color: rgb(233, 74, 74);
+    font-size: 30px;
+}
+.div-img{
+    border-radius: 50%;
+    width: 50px;
+}
+.text-style{
+    color: grey;
+}
+.wrap-left{
+    float: left;
+    width: 25%;
+}
+.wrap-right{
+    float: right;
+    width: 75%;
+}
+.content-sty1{
+    padding: 10px;
+    float: left;
+    color: blue;
+    position: relative;
+    right: 10px;
+}
+.content-sty2{
+    padding: 10px;
+    margin: 10px;
+    color: blue;
+    position: relative;
+    right: 61px;
+}
+.content-sty3{
+    color: blue;
+    position: relative;
+    right: 46px;
+}
+.head-sty{
+    padding: 10px;
+    position: relative;
+    right: 10px;
+}
+.button-sty{
+    position: relative;
+    right: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+.hd-sty{
+    position: relative;
+    right: 27px;
+    padding: 20px;
+}
+.span-sty{
+    text-align: center;
+    color: lightgrey;
+}
+.content6{
+    text-align: center;
+}
+.flex-con{
+    height: 200px;
+    border : 1px solid black;
+    text-align: center;
+    margin: 20px;
+}
+.footer{
+    width: 100%;
+    background-color:rgb(51,51,56);
+    color: white;
+    margin-top: 70px;
+    float: right;
+}
+.text{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 299px;
+}
+.video-cont{
+    width: 100%;
+    height:250 ;
+}
+.banner-right > img{
+    width: 100%;
+    height: 250px;
+}
+.vedio-left{
+    float: left;
+}
